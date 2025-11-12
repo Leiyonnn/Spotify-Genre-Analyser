@@ -36,11 +36,13 @@ This project was developed as a **data science showcase**, highlighting the foll
 ---
 
 ## Setup Instructions
-Clone the repository, create a file named .env in the project’s root directory and add the following lines:
+- Create app from "Spotify for Developers" on the dashboard to get the "clientID" and "clientSecret"
+- Clone the repository
+- Create a file named .env in the project’s root directory and add the following lines:
 
-clientID=your_spotify_client_id
-clientSecret=your_spotify_client_secret
-SPOTIPY_REDIRECT_URI=http://127.0.0.1:5000/redirect
-secretKey= [CHANGE THIS]
+- clientID=your_spotify_client_id
+- clientSecret=your_spotify_client_secret
+-SPOTIPY_REDIRECT_URI=http://127.0.0.1:5000/redirect
+- secretKey= [CHANGE THIS]
 
-You can obtain your secretKey by setting your own in the [CHANGE THIS], for the clientID and clientSecret this can be created on the Spotify Developer Dashboard website.
+-You can obtain your secretKey by setting your own in the [CHANGE THIS], for the clientID and clientSecret this can be created on the Spotify Developer Dashboard website.
