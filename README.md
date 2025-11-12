@@ -36,8 +36,7 @@ This project was developed as a **data science showcase**, highlighting the foll
 ---
 
 ## Setup Instructions
-Clone the repository
-Create a file named .env in the project’s root directory and add the following lines:
+Clone the repository, create a file named .env in the project’s root directory and add the following lines:
 
 clientID=your_spotify_client_id
 clientSecret=your_spotify_client_secret
